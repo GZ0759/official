@@ -1,0 +1,177 @@
+.head,
+.content,
+.foot {
+  font-size: 22px;
+}
+/* 导航栏 */
+.head {
+  width: 1200px;
+  height: 160px;
+  margin: 0 auto;
+}
+.logo {
+  display: inline-block;
+  padding: 53px 0 40px;
+}
+.nav {
+  display: inline-block;
+}
+.nav ul {
+  display: inline-block;
+  margin: 0;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 62px 22px;
+  position: relative;
+  cursor: pointer;
+}
+.nav ul li:hover {
+  background-color: #017bba;
+}
+.trigon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-10px);
+  bottom: -5px;
+  width: 20px;
+}
+
+/* banner图片 */
+.swiper-container {
+  /* width: 1920px; */
+}
+.swiper-slide {
+  width: 1920px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/banner.gif);
+}
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  margin: 0 6px;
+  text-align: center;
+  background: #fff;
+  opacity: 0.67;
+  filter: alpha(opacity=67);
+  color: transparent;
+  line-height: 20px;
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  background: #e60012;
+  opacity: 1;
+  color: transparent;
+}
+
+/* 主体内容 */
+.content {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.content-title {
+  font-size: 30px;
+  color: #017bba;
+  display: block;
+  margin-top: 68px;
+}
+.content-line {
+  width: 90px;
+  display: block;
+  border-bottom: 2px solid #017bba;
+  margin: 0 auto 20px;
+}
+/* 主营业务 */
+.service {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.service-img-left {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  cursor: pointer;
+}
+.service-img-right {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  cursor: pointer;
+}
+.service ul {
+  padding: 0 !important;
+}
+.service-img li {
+  display: inline-block;
+}
+/* 案例展示 */
+.example {
+  width: 100%;
+}
+.example-img {
+  height: 350px;
+  overflow: hidden;
+}
+.example-img ul {
+  margin: 0;
+  padding: 0 !important;
+  width: 100%;
+}
+.example-img li {
+  position: relative;
+  display: inline-block;
+  max-width: 380px;
+  height: 350px;
+  overflow: hidden;
+  margin-left: 30px;
+}
+.example-img li:first-of-type,
+.example-img li:last-of-type {
+  margin: 0;
+}
+.example-img li img {
+  /* width: 380px; */
+  height: 350px;
+}
+.example-img li p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 350px;
+  line-height: 350px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: white;
+  cursor: pointer;
+  background: rgba(1, 123, 186, 0.8);
+  display: none;
+}
+.example-img li:hover p {
+  display: block;
+}
+
+/* 常见问题 */
+.question {
+  margin-top: 50px;
+}
+.question img {
+  width: 1145px;
+}
+/* .地图 */
+.enterprise-map {
+  margin-top: 16px;
+  /* max-width: 1920px; */
+  width: 100%;
+  overflow: hidden;
+}
+/* 底部 */
+.foot {
+  max-width: 1920px;
+  margin: 0 auto;
+}

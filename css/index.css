@@ -111,28 +111,19 @@
 }
 /* 案例展示 */
 .example {
-  width: 100%;
-}
-.example-img {
-  height: 350px;
-  overflow: hidden;
+  max-width: 1920px;
 }
 .example-img ul {
+  display: flex;
+  padding: 0;
   margin: 0;
-  padding: 0 !important;
-  width: 100%;
+  list-style: none;
 }
 .example-img li {
   position: relative;
-  display: inline-block;
-  max-width: 380px;
+  width: 380px;
   height: 350px;
-  overflow: hidden;
-  margin-left: 30px;
-}
-.example-img li:first-of-type,
-.example-img li:last-of-type {
-  margin: 0;
+  margin: 0 20px;
 }
 .example-img li img {
   /* width: 380px; */

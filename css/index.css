@@ -162,7 +162,23 @@
   overflow: hidden;
 }
 /* 底部 */
-.foot {
+.footImg {
   max-width: 1920px;
   margin: 0 auto;
+}
+.foot {
+  color: white;
+  font-size: 14px;
+  background-color: #017bba;
+  display: flex;
+  justify-content: center;
+}
+.left-text {
+  display: flex;
+  padding-right: 46px;
+  border-right: 1.5px solid #6ab1d6
+}
+.right-icon {
+  display: flex;
+  padding-left: 46px;
 }

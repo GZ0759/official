@@ -159,26 +159,58 @@
   overflow: hidden;
 }
 
-
 /* 底部 */
 .footImg {
   max-width: 1920px;
   margin: 0 auto;
 }
 
-.foot {
+.foot-wrap {
+  width: 100%;
   color: white;
-  font-size: 16px;
   background-color: #017bba;
-  display: flex;
-  justify-content: center;
+}
+.foot {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 14px;
+  overflow: auto;
 }
 .left-text {
-  display: flex;
+  float: left;
   padding-right: 46px;
-  border-right: 1.5px solid #6ab1d6
+  border-right: 1.5px solid #6ab1d6;
+}
+.left-text .foot-serve div {
+  display: inline-block;
+  padding: 0 20px;
+  border-right: 1px solid #6ab1d6;
+}
+.left-text .foot-serve div:last-child {
+  border: 0;
+}
+.foot-call {
+  overflow: hidden;
+  margin: 18px 0;
+}
+.foot-call .call-item {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0 58px;
+}
+.foot-call .call-item img {
+  width: 24px;
+  padding-bottom: 3px;
+}
+.foot-map {
+  text-align: center;
 }
 .right-icon {
-  display: flex;
+  float: left;
   padding-left: 46px;
+}
+.right-icon div {
+  display: inline-block;
 }

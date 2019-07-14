@@ -38,9 +38,6 @@
 }
 
 /* banner图片 */
-.swiper-container {
-  /* width: 1920px; */
-}
 .swiper-slide {
   width: 1920px;
   height: 500px;
@@ -161,14 +158,17 @@
   width: 100%;
   overflow: hidden;
 }
+
+
 /* 底部 */
 .footImg {
   max-width: 1920px;
   margin: 0 auto;
 }
+
 .foot {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #017bba;
   display: flex;
   justify-content: center;

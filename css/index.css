@@ -107,23 +107,27 @@
   display: inline-block;
 }
 /* 案例展示 */
-.example {
-  max-width: 1920px;
-}
 .example-img ul {
-  display: flex;
+  /* display: flex; */
   padding: 0;
   margin: 0;
   list-style: none;
+  height: 350px;
+  white-space: nowrap;
 }
 .example-img li {
+  display: inline-block;
   position: relative;
   width: 380px;
   height: 350px;
-  margin: 0 20px;
+  margin: 0 20px 0;
+}
+.example-img li:first-child,
+.example-img li:last-child {
+  margin: 0;
 }
 .example-img li img {
-  /* width: 380px; */
+  width: 380px;
   height: 350px;
 }
 .example-img li p {
@@ -160,11 +164,6 @@
 }
 
 /* 底部 */
-.footImg {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
 .foot-wrap {
   width: 100%;
   color: white;
@@ -213,4 +212,9 @@
 }
 .right-icon div {
   display: inline-block;
+  margin: 0 32px;
+}
+.right-icon div img {
+  display: block;
+  margin: 8px 0;
 }

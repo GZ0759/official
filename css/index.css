@@ -189,6 +189,9 @@
 .left-text .foot-serve div:last-child {
   border: 0;
 }
+.left-text .foot-serve div a {
+  color: white;
+}
 .foot-call {
   overflow: hidden;
   margin: 18px 0;
